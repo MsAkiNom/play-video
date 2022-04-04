@@ -6,3 +6,4 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/GitHub repo here!/i);
   expect(linkElement).toBeInTheDocument();
 });
+
