@@ -1,4 +1,4 @@
-// import video from './video.mp4';
+import video from './video.mp4';
 import './App.css';
 
 function App() {
