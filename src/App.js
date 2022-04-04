@@ -8,7 +8,6 @@ function App() {
        
         <div>
         <video loop autoPlay src= {video} className="Video-frame" alt="video">
-        
         </video>
         </div>
         
