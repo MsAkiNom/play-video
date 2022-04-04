@@ -1,4 +1,4 @@
-import video from './video.mp4';
+// import video from './video.mp4';
 import './App.css';
 
 function App() {
@@ -6,10 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
        
-        <div>
+        {/* <div>
         <video loop autoPlay src= {video} className="Video-frame" alt="video">
         </video>
-        </div>
+        </div> */}
         
         
         <p>
