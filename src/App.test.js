@@ -3,7 +3,7 @@ import App from './App';
 
 test('renders for gotoAndPlay', () => {
   render(<App />);
-  const linkElement = screen.getByText(/A short video for gotoAndPlay/i);
+  const linkElement = screen.getByText(/gotoAndPlay/i);
   expect(linkElement).toBeInTheDocument();
 });
 
