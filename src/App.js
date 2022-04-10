@@ -1,15 +1,18 @@
-// import video from './video.mp4';
 import './App.css';
+import ReactPlayer from "react-player";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
        
-        {/* <div>
-        <video loop autoPlay src= {video} className="Video-frame" alt="video">
-        </video>
-        </div> */}
+        <div>
+        
+        <ReactPlayer
+          url="https://youtu.be/a9j6Pw_SFKE"
+          controls
+         />
+        </div>
         
         
         <p>
